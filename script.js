@@ -244,7 +244,7 @@ $(document).on('click',".card_frame",function(){
 				cardsHidden.forEach(function(value,index){
 					cardsHidden[index].hidden = true;
 				});
-			},1000);
+			},500);
 		}
 		if(!again){
         	nextPlayer();
